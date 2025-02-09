@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="judul">
+        <img src="ax-removebg-preview.png" alt="logo">
+        <h1><p>WELCOME TO THE
+        </p></h1>
+        <h2><p style="text-align: center;">LOGIN PAGE</p>
+            <main></h2> 
+        <br>
+    </header>
+    <div class="square"></div>
+    <form>
+        <div class="container">
+        <!--input type txt-->
+        <div class="wrapper">
+            <label class="name">Nama Lengkap</label><br>
+            <input type="text" class="name-holder" id="name" placeholder="Masukan nama lengkap">
+        </div>
+            <br>
+        <div class="wrapper">
+        <label class="from">Asal Sekolah</label><br>
+        <input type="text" class="from-holder" id=from placeholder="Masukan Asal Sekolah" required>
+        </div>
+            <br>
+            <div>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email" disabled>
+        </div>
+        <br> 
+    
+            <!-- input type radio-->
+    
+        <div>
+         <label for="jenis Kelamin">Jenis Kelamin</label> <br>
+        </div>
+        <div class="gender">
+         <input type="radio" id="laki-laki" name="laki-laki" value="laki">
+         <label for="laki-laki">Laki-laki</label>
+        
+         <input type="radio" id="perempuan" name="perempuan" value="perempuan">
+         <label for="perempuan">Perempuan</label>
+         |
+         <input type="radio" id="tidak" name="tidak" value="anonim">
+         <label for="tidak">Tidak ingin memberi tahu</label>
+        </div>
+         <br>
+    
+         <!--elemen section-->
+        <div class="selector">
+         <label for="ekskul">Ekstrakurikuler</label> <br>
+         <select name="ekskul" id="ekskul">
+        </div>
+        <div class="list">
+         <option value="Basket">Basket</option>
+         <option value="Futsal">Futsal</option>
+         <option value="Voli">Voli</option>
+         <option value="Silat">Silat</option>
+         <option value="Pramuka">Pramuka</option>
+         <option value="PMR">Palang Merah Remaja</option>
+         <option value="Gitar">Gitar</option>
+         <option value="Nari">Tari</option>
+         <option value="Hirmas">Hirmas</option>
+         <option value="IPA">Ipa</option>
+         <option value="IPS">Ips</option>
+         <option value="MTk">Matematika</option>
+         <option value="B.indo">Bahasa Indonesia</option>
+         <option value="B.sun">Bahasa Sunda</option>
+         <option value="English">Bahasa Inggris</option>
+         <option value="Karate">Karate</option>
+         <option value="Paskibra">Paskibra</option>
+        </div>
+        </select>
+
+        <br>
+        <!--txtarea-->
+        <label for="alamat">Alamat</label> <br>
+        <textarea class="alamat" id="alamat" cols="100" rows="10" disabled></textarea> 
+
+        <!--button--> <br>
+        <button class="submit">Sumbit</button>
+    </div>
+    </form>
+</div>
+    </main>
+        <br>
+    <br>
+    <footer>Hak Cipta : Muhammad Iksan</footer>
+    
+</body>
+</html>
+
